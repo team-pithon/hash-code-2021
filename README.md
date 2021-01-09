@@ -4,10 +4,8 @@
 
 ### Problem Statement:
 
-```
 Given the description of the pizzas available, and the number of teams of 2, 3, or 4 people that have ordered, decide which pizzas to send to each of the teams.
 The goal is to maximize, per team, the number of different ingredients used in all their pizzas.
-```
 
 ### How we tackled the problem:
 
@@ -19,9 +17,7 @@ The goal is to maximize, per team, the number of different ingredients used in a
 
 ### Problem Statement:
 
-```
 FIXME
-```
 
 ### How we tackled the problem:
 
