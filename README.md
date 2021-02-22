@@ -9,12 +9,13 @@ The goal is to maximize, per team, the number of different ingredients used in a
 
 ### How we tackled the problem:
 
-| Attempt | How to choose the teams? | How to choose the pizzas? |
-| :------ | :----------------------- | :------------------------ |
-| 1st     | deliver to all the 4-person teams we have pizzas for, then to the 3-person teams and then to the 2-person teams | of the remaining pizzas pick the one with the most ingredients |
-| 2nd     | deliver to all the 4-person teams we have pizzas for, then to the 3-person teams and then to the 2-person teams | the first pizza of a delivery is the one with the most ingredients of the remaining pizzas, but the remaining pizzas are the ones with the most ingredients of the pizzas that have the least ingredients in common with the ones which have already been selected for that delivery |
+| Attempt | How to choose the teams? | How to choose the first pizza in a delivery? | How to choose the rest of the pizzas in the delivery? |
+| :------ | :----------------------- | :------------------------------------------- | :---------------------------------------------------- |
+| 1st | deliver to all the 4-person teams we have pizzas for, then to the 3-person teams and then to the 2-person teams | pick the one with the most ingredients | pick the one with the most ingredients |
+| 2nd | deliver to all the 4-person teams we have pizzas for, then to the 3-person teams and then to the 2-person teams | pick the one with the most ingredients | pick the one with the most ingredients of the pizzas that have the least ingredients in common with the pizzas already selected for that delivery |
+| 3rd | deliver to all the 4-person teams we have pizzas for, then to the 3-person teams and then to the 2-person teams | pick the one with the most ingredients | pick the one with the largest number of ingredients that weren't on any of the pizzas already selected for that delivery |
 
-Score: 273,568,368 points
+Score: 577,981,201 points
 
 ---
 
