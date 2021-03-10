@@ -27,9 +27,13 @@ Given the description of a city plan and planned paths for all cars in that city
 
 ### How we tackled the problem:
 
-| Attempt | What Libraries? | How? | What Books? | How? |
-| :-------| :-------------- | :--- | :---------- | :--- |
-| 1st     | x | x | x | x |
+| Attempt | Which streets get time? | How?
+| :-------| :-------------- | :--- |
+| 1st     | all of them | each street that comes into an intersection gets 1 time unit |
+| 2nd     | all of them | for an intersection with 3 streets that come into it, the street appearing the most often in the car paths gets 3 time units, the street appearing the most often in the car paths of the remaining streets gets 2 time units and the street appearing the least often in the car paths gets 1 time unit |
+| 3rd     | |
+| 4th     | |
+| 5th     | |
 
 Score: 8,800,037 points
 
@@ -49,7 +53,7 @@ Score: 8,800,037 points
 | :----------------- | :----------------------------------------------------------- | :--------------------------------------- |
 | Cristiano Clemente | [@cristiano-clemente](https://github.com/cristiano-clemente) | Team Leader & Programmer                 |
 | Hugo Pitorro       | [@xtwigs](https://github.com/xtwigs)                         | Programmer                               |
-| Catarina Carreiro  | [@cmcarreiro](https://github.com/cmcarreiro)                 | Algorithm Designer (& Bug-Finder Person) |
+| Catarina Carreiro  | [@cmcarreiro](https://github.com/cmcarreiro)                 | Algorithm Designer                       |
 | Mónica Jin         | [@mokita-j](https://github.com/Mokita-J)                     | Algorithm Designer                       |
 
 hub: [GCE-NEIIST - Instituto Superior Técnico](https://gce.rnl.tecnico.ulisboa.pt/) from [Instituto Superior Técnico](https://tecnico.ulisboa.pt/en/) (Lisbon, Portugal)
