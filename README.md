@@ -27,13 +27,15 @@ Given the description of a city plan and planned paths for all cars in that city
 
 ### How we tackled the problem:
 
-| Attempt | Which streets get time? | How?
-| :-------| :-------------- | :--- |
-| 1st     | all of them | each street that comes into an intersection gets 1 time unit |
-| 2nd     | all of them | for an intersection with 3 streets that come into it, the street appearing the most often in the car paths gets 3 time units, the street appearing the most often in the car paths of the remaining streets gets 2 time units and the street appearing the least often in the car paths gets 1 time unit |
-| 3rd     | |
-| 4th     | |
-| 5th     | |
+Note: An intersection with only one street that comes into it is trivial therefore regardless of all else that in-street gets the green light all of the time.
+
+| Attempt | Which in-streets get time? | How do you come up with the schedule? |
+| :------ | :------------------------- | :------------------------------------ |
+| 1st | all of them | each street that comes into an intersection gets 1 time unit |
+| 2nd | all of them | for an intersection with 3 streets that come into it, the street appearing the most often in the car paths gets 3 time units, the street appearing the most often in the car paths of the remaining streets gets 2 time units and the street appearing the least often in the car paths gets 1 time unit |
+| 3rd | only the ones that appear at least once in the car paths |  for an intersection with 3 streets that come into it, the street appearing the most often in the car paths gets 3 time units, the street appearing the most often in the car paths of the remaining streets gets 2 time units and the street appearing the least often in the car paths gets 1 time unit |
+| 4th | only the ones that appear at least once in the car paths | each street that comes into the intersection gets time proportional to how often it appears in the car paths |
+| 5th | can't tell a priori | after every time unit we select the in-street with the most cars waiting and save it in the intersection history and at the end of the simulation each intersection's schedule is created based on its history |  
 
 Score: 8,800,037 points
 
@@ -41,7 +43,7 @@ Score: 8,800,037 points
 
 | Round                      | Score             | #Hub | #Country | #Worldwide |
 | :------------------------- | :---------------- | :--- | :------- | :--------- |
-| Online Qualification Round | 8,800,037 points | 5th | 25th | 2961th |
+| Online Qualification Round | 8,800,037 points  | 5th  | 25th     | 2961th     |
 
 **#HashCodeSolved**
 
