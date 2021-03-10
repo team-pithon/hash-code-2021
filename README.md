@@ -19,35 +19,25 @@ Score: 577,981,201 points
 
 ---
 
-## Online Qualification Round / Extended Round: [FIXME](qualification-round/FIXME.pdf)
+## Online Qualification Round: [Traffic Signaling](qualification-round/traffic-signaling.pdf)
 
 ### Problem Statement:
 
-FIXME
+Given the description of a city plan and planned paths for all cars in that city, optimize the schedule of traffic lights to minimize the total amount of time spent in traffic, and help as many cars as possible reach their destination before a given deadline.
 
 ### How we tackled the problem:
 
-FIXME
-
-#### Online Qualification Round:
-
-
 | Attempt | What Libraries? | How? | What Books? | How? |
 | :-------| :-------------- | :--- | :---------- | :--- |
 | 1st     | x | x | x | x |
 
-#### Extended Round:
-
-| Attempt | What Libraries? | How? | What Books? | How? |
-| :-------| :-------------- | :--- | :---------- | :--- |
-| 1st     | x | x | x | x |
+Score: 8,800,037 points
 
 ### Placements:
 
 | Round                      | Score             | #Hub | #Country | #Worldwide |
 | :------------------------- | :---------------- | :--- | :------- | :--------- |
-| Online Qualification Round | x points | xth  | xth     | xth    |
-| Extended Round             | x points | xth  | xth     | xth    |
+| Online Qualification Round | 8,800,037 points | 5th | 25th | 2961th |
 
 **#HashCodeSolved**
 
