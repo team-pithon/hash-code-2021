@@ -53,7 +53,7 @@ Score: 8,800,037 points
 
 | Name               | Github                                                       | Role                                     |
 | :----------------- | :----------------------------------------------------------- | :--------------------------------------- |
-| Cristiano Clemente | [@cristiano-clemente](https://github.com/cristiano-clemente) | Team Leader, Programmer & README writer  |
+| Cristiano Clemente | [@cristianocclemente](https://github.com/cristianocclemente) | Team Leader, Programmer & README writer  |
 | Hugo Pitorro       | [@xtwigs](https://github.com/xtwigs)                         | Programmer                               |
 | Catarina Carreiro  | [@cmcarreiro](https://github.com/cmcarreiro)                 | Algorithm Designer                       |
 | Mónica Jin         | [@mokita-j](https://github.com/Mokita-J)                     | Algorithm Designer                       |
